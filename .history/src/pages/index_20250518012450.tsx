@@ -1,10 +1,10 @@
 'use client';
 import React, { useState, useMemo, useEffect, CSSProperties } from 'react';
 import { RefreshCw, } from "lucide-react";
-import PieChartComponent from '../components/piechart';
-import BarChartComponent from '../components/barchart';
+import PieChartComponent from '../../components/piechart';
+import BarChartComponent from '../../components/barchart';
 import { toast, ToastContainer } from 'react-toastify';
-import PersonalInfo from "../components/personalInfo";
+import PersonalInfo from "../../components/personalInfo";
 import { BarLoader } from "react-spinners";
 import Image from 'next/image'
 interface StockData {
