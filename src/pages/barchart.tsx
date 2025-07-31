@@ -11,7 +11,7 @@ import {
     XAxis,
     YAxis,
 } from "recharts";
-
+   
 interface StockData {
     symbol: string;
     category: string;
@@ -142,7 +142,7 @@ export default function BarChartComponent() {
     return (
         <div className="flex flex-col gap-5 border border-gray-200 rounded-lg p-4 bg-white shadow-sm max-w-full w-full sm:w-[90vw] md:w-[600px] lg:w-[700px] mx-auto">
             <h1 className="text-gray-900 font-semibold text-xl sm:text-2xl md:text-3xl">
-                Invested Value by Sector
+                Invested Value 
             </h1>
             <div className="text-gray-500 text-sm">
                 Note: This chart shows the invested value and current value of stocks categorized by sector.
